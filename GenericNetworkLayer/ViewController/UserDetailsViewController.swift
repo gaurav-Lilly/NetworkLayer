@@ -51,6 +51,20 @@ extension UserDetailsViewController: UITableViewDelegate, UITableViewDataSource 
         return cell
     }
     
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        cell.transform = CGAffineTransform(translationX: 0, y: 44 / 2)
+        cell.alpha = 0
+
+        UIView.animate(
+            withDuration: 0.4,
+            delay: 0.09 * Double(indexPath.row),
+            options: [.curveEaseInOut],
+            animations: {
+                cell.transform = CGAffineTransform(translationX: 0, y: 0)
+                cell.alpha = 1
+        })
+    }
+    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if indexPath.row == 4 {
             let storyBoard = UIStoryboard.init(name: "Main", bundle: nil)
