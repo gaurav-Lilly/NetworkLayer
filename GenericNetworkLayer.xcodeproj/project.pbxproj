@@ -18,7 +18,6 @@
 		9427D1D7238BD9C80061C827 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9427D1D6238BD9C80061C827 /* Router.swift */; };
 		9427D1DA238BD9EB0061C827 /* ServiceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9427D1D9238BD9EB0061C827 /* ServiceLayer.swift */; };
 		9465345723911D9400E71F7D /* UserApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9465345623911D9400E71F7D /* UserApiManager.swift */; };
-		9465345C239633BD00E71F7D /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9465345B239633BD00E71F7D /* UIViewController+Extension.swift */; };
 		9465345E2396A68E00E71F7D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9465345D2396A68E00E71F7D /* SceneDelegate.swift */; };
 		946534602396A96900E71F7D /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9465345F2396A96900E71F7D /* UserListViewController.swift */; };
 		946534622397306700E71F7D /* iconfinder_arrow-right-01_186409.png in Resources */ = {isa = PBXBuildFile; fileRef = 946534612397306700E71F7D /* iconfinder_arrow-right-01_186409.png */; };
@@ -65,7 +64,6 @@
 		9427D1D6238BD9C80061C827 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		9427D1D9238BD9EB0061C827 /* ServiceLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLayer.swift; sourceTree = "<group>"; };
 		9465345623911D9400E71F7D /* UserApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserApiManager.swift; sourceTree = "<group>"; };
-		9465345B239633BD00E71F7D /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		9465345D2396A68E00E71F7D /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = GenericNetworkLayer/SceneDelegate.swift; sourceTree = "<group>"; };
 		9465345F2396A96900E71F7D /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
 		946534612397306700E71F7D /* iconfinder_arrow-right-01_186409.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfinder_arrow-right-01_186409.png"; sourceTree = "<group>"; };
@@ -189,7 +187,6 @@
 		94653458239620B600E71F7D /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				9465345B239633BD00E71F7D /* UIViewController+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -355,7 +352,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9465345C239633BD00E71F7D /* UIViewController+Extension.swift in Sources */,
 				946534602396A96900E71F7D /* UserListViewController.swift in Sources */,
 				94C7A283239972FA00DF91CE /* UserFollowersModel.swift in Sources */,
 				94C7A27A2398E4B900DF91CE /* FollowersViewController.swift in Sources */,
